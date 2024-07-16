@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-Encriptador</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador de texto</h1>
+        <h2>Reglas</h2>
+        <div class="container_reglas">
+            <ul>
+                <li class="items">Solo minusculas</li>
+                <li class="items">Sin acentos</li>
+                <li class="items">Sin caracteres especiales</li>
+            </ul>
+        </div>
+        <img src="gato.png" alt="Gato con libros" class="container_gato">
+        <input id="container_input" type="text" style="text-transform: lowercase;" pattern="[a-z]{5}">
+        <button onclick="encriptador();" id="encriptar_boton" type="button" >Encriptar</button>
+        <button id="desencriptar_boton" type="button" onclick="desencriptar();">Desencriptar</button>
+        
+
+    </div>
+    <div clas="container_output">
+        <h3 id="mensaje">Texto encriptado o desencriptado</h3>
+        <p id="textoo">Ningun texto encriptado</p>
+    </div>
+
+    <script src="encriptador.js" defer></script>
+</body>
+
+</html>

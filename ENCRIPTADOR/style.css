@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+.encriptarBoton{
+    width: Fixed (680px);
+    height: Hug (67px);
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+}
